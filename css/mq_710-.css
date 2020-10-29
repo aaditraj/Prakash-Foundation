@@ -1,17 +1,42 @@
+html{
+  width: 100%;
+}
+
 header{
   flex-flow: column nowrap;
+  height: 400px;
 }
 header div h1, h2{
   margin: 10px 0;
 }
+img.logo{
+  width: 180px;
+  height: 180px;
+}
 
-div#PhotosAndVideos{
+div figure.c3 img, figure.c6 img, figure.c7 img{
+  height: 300px;
+}
+
+button.display-left{
+  order: 19;
+}
+
+button.display-right, button.display-left{
+  height: 50px;
+}
+
+div#Photos figure{
+  width: 400px;
+}
+
+div#Photos {
+  display: flex;
   flex-flow: column wrap;
-  align-items: center;
+  justify-content: center;
 }
-div#PhotosAndVideos figure{
-  width: 100%;
-}
+
+
 .v1,.v2{
   width: 95%;
 }

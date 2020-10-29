@@ -7,17 +7,20 @@
   <title>Prakash Foundation</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/mq_960+.css" media="(min-width: 960px)">
+  <link rel="stylesheet" href="css/mq_1165+.css" media="(min-width: 1165px)">
   <link rel="stylesheet" href="css/mq_710-.css" media="(max-width: 710px)">
+  <link rel="stylesheet" href="css/mq_710-1165.css" media = "(min-width: 710px) and (max-width: 1165px)">
+  <!-- <link rel="stylesheet" href="css/message.css"> -->
 </head>
 <body>
+</div>
   <nav>
     <ul>
         <li><a href="#OurMission">Our Mission</a></li>
         <li><a href="#Eligibility">Eligibility</a></li>
         <li><a href="#Process">Process</a></li>
         <li><a href="#Application">Application</a></li>
-        <li><a href="#PhotosAndVideos">Photos and Videos</a></li>
+        <li><a href="#Videos">Videos</a></li>
         <li><a href="#OurTeam">Our Team</a></li>
         <!-- <li><a href="#SendAMessage">Send A Message</a></li> -->
         <li><a href="#Contacts">Contacts</a></li>
@@ -30,6 +33,38 @@
     </div>
   </header>
   <article>
+    <div id="Photos">
+      <figure class="c1 slideshow" >
+        <img src="images/pic1.jpg">
+        <figcaption>Scholar receives her check</figcaption>
+      </figure>
+      <figure class="c2 slideshow"  >
+        <img src="images/pic2.jpg">
+        <figcaption>All Prakash Foundation Scholars with checks</figcaption>
+      </figure>
+      <figure class="c3 slideshow" >
+        <img src="images/pic3.jpg">
+        <figcaption>All Prakash Foundation Scholars with checks</figcaption>
+      </figure>
+      <figure class="c4 slideshow" >
+        <img src="images/pic4.jpg">
+        <figcaption>Scholar receives check from Principal Phool Singh</figcaption>
+      </figure>
+      <figure class="c5 slideshow" >
+        <img src="images/pic5.jpg">
+        <figcaption>Awarding Nidhi Jha, a B.Tech. student</figcaption>
+      </figure>
+      <figure class="c6 slideshow" >
+        <img src="images/pic6.jpg">
+      </figure>
+      <figure class="c7 slideshow" >
+        <img src="images/pic7.jpg">
+      </figure>
+      <button class="button display-left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="button display-right" onclick="plusDivs(+1)">&#10095;</button>
+    </div>
+  </article>
+  <article id = 'WHITESPACE'>
     <a id="OurMission"></a>
     <h2 class="notop">Our Mission</h2>
       <p>Cultural traditions like dowries make a girl from a poor family become a burden. As a result, girls from poor families are less educated and have a high risk for early marriage and exploitation, such as child labor and prostitution. Providing a good education to talented and financially weak girls is the best solution to solve the problem.</p>
@@ -68,37 +103,11 @@
       </ul>
   </article>
   <article>
-    <a id="PhotosAndVideos"></a>
-    <h2>Photos and Videos</h2>
-    <div id="PhotosAndVideos">
+    <a id="Videos"></a>
+    <h2>Videos</h2>
+    <div id="Videos">
       <iframe class="v1" width="966" height="543" src="https://www.youtube.com/embed/kl9-SQlh72Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe class="v2" width="966" height="543" src="https://www.youtube.com/embed/CmTB-qI29mw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
       </iframe>
-      <figure class="c1">
-        <img src="images/pic1.jpg">
-        <figcaption>Scholar receives her check</figcaption>
-      </figure>
-      <figure class="c2">
-        <img src="images/pic2.jpg">
-        <figcaption>All Prakash Foundation Scholars with checks - 2014</figcaption>
-      </figure>
-      <figure class="c3">
-        <img src="images/pic3.jpg">
-        <figcaption>All Prakash Foundation Scholars with checks - 2014</figcaption>
-      </figure>
-      <figure class="c4">
-        <img src="images/pic4.jpg">
-        <figcaption>Scholar receives check from Principal Phool Singh</figcaption>
-      </figure>
-      <figure class="c5">
-        <img src="images/pic5.jpg">
-        <figcaption>Awarding Nidhi Jha, a B.Tech. student</figcaption>
-      </figure>
-      <figure class="c6">
-        <img src="images/pic6.jpg">
-      </figure>
-      <figure class="c7">
-        <img src="images/pic7.jpg">
-      </figure>
     </div>
   </article>
   <article>
@@ -109,7 +118,7 @@
     <p><strong>Sonia Sehra</strong>: Patron</p>
     <p><strong>Geeta Prasad</strong>: Member</p>
     <p><strong>Premanand Shrivastav</strong>: Member</p>
-    <p><strong>Aaditya Raj</strong>: Website Management</p>
+    <p><strong>Aaditya Raj</strong>: Tech Lead</p>
     <p></p>
   </article>
   <!-- <section>
@@ -127,7 +136,7 @@
   </section> -->
   <footer>
     <a id="Contacts"></a>
-    <address>You can contact the president at <a href="mailto:rprasad_dhn@yahoo.com?subject=">rprasad_dhn@yahoo.com</a>.
+    <aside>You can contact the president at <a href="mailto:rprasad_dhn@yahoo.com?subject=">rprasad_dhn@yahoo.com</a>.
       <br>
       Feel free to call us as well: (91)-326-2301606, (91) 9431123185
       <br>
@@ -142,9 +151,10 @@
       Dhanbad-826001
       <br>
       Jharkhand, India
-    </address>
+    </aside>
     <aside class='sidenote'>Follow our most recent activities! Visit <a target='_blank' href=" https://www.facebook.com/prakashfoundationdhn/">our Facebook page</a>
     </aside>
   </footer>
 </body>
+<script src = 'slideshow.js'></script>
 </html>

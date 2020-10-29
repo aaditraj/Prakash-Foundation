@@ -1,0 +1,24 @@
+div#Photos figure.c1, figure.c4, figure.c5 img{
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+}
+div figure{
+  width: 400px;
+  padding-bottom: 30px;
+}
+
+
+div#Photos figure.c3, figure.c6, figure.c7 img, figure.c7{
+  width: 600px;
+  margin: 0 auto;
+}
+
+div#Photos figure.c2 img{
+  height: 300px;
+  width: 100% ;
+}
+div#Photos figure.c2 {
+  height: 300px;
+  width: 500px;
+}
